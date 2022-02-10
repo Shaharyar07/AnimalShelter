@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.App {
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+#homepic {
+  height: 91vh;
+  width: fit-content;
+}
+#adoptpic {
+  height: 91vh;
+}
+#droppic {
+  height: 91vh;
+  width: 100vw;
+}
+.btn {
+  position: absolute;
+  z-index: 1;
+  top: 350px;
+  left: 45%;
+}
+.formdrop {
+  position: absolute;
+  z-index: 0;
+  top: 60px;
+  left: 55%;
+}
+.formreport {
+  position: absolute;
+  z-index: 0;
+  top: 60px;
+  left: 55%;
+}
+.formdonate {
+  position: absolute;
+  z-index: 0;
+  top: 60px;
+  left: 15%;
+}
+.form {
+  position: absolute;
+  z-index: 0;
+  top: 120px;
+  left: 55%;
+}
+.search {
+  left: 17%;
+  top: 225px;
+}
+.drop {
+  top: 100%;
+  left: 20%;
+}
+.report {
+  top: 100%;
+  left: 10%;
+}
+
+#textA {
+  height: 25px;
+  width: 75%;
+  margin: 10px;
+}
+
+#hello {
+  width: 45%;
+}
+
+#hehe {
+  width: 100%;
+}
+.donate {
+  float: left;
+}
+
